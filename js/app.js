@@ -32,7 +32,7 @@ document.getElementById('donate-now-btn').addEventListener('click', function(eve
         `
 
         document.getElementById('history-section').appendChild(div);
-        if(noakhaliDonateInput === ''){
+        if(noakhaliDonateInput === '' || noakhaliDonateInput < 0){
             alert('Invalid Input');
             location.reload();
             document.getElementById('my_modal_1').classList.add('hidden');
@@ -84,7 +84,7 @@ document.getElementById('donate-now-btn2').addEventListener('click', function(ev
 
         document.getElementById('history-section').appendChild(div);
         
-        if(feniDonateInput === ''){
+        if(feniDonateInput === '' || feniDonateInput < 0){
             alert('Invalid Input');
             location.reload();
             document.getElementById('my_modal_1').classList.add('hidden');
@@ -135,7 +135,7 @@ document.getElementById('donate-now-btn3').addEventListener('click', function(ev
         `
 
         document.getElementById('history-section').appendChild(div);
-        if(quotaDonateInput === ''){
+        if(quotaDonateInput === '' || quotaDonateInput < 0){
             alert('Invalid Input');
             location.reload();
             document.getElementById('my_modal_1').classList.add('hidden');
