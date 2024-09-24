@@ -25,8 +25,8 @@ document.getElementById('donate-now-btn').addEventListener('click', function(eve
 
         const div = document.createElement('div');
         div.innerHTML = `
-            <div class = 'border-2 rounded-xl p-5 w-10/12 mx-auto h-28 space-y-3 mt-6'>
-                <h1 class = 'font-extrabold text-2xl'>${noakhaliDonateInput} Taka is donated for famine-2024 at Noakhali, Bangladesh</h1>
+            <div class = 'border-2 rounded-xl p-5 w-11/12 md:w-10/12 mx-auto md:h-28 space-y-3 mt-6'>
+                <h1 class = 'font-extrabold md:text-2xl'>${noakhaliDonateInput} Taka is donated for famine-2024 at Noakhali, Bangladesh</h1>
                 <p>Date: ${specificDate}</p>
             </div>
         `
@@ -76,8 +76,8 @@ document.getElementById('donate-now-btn2').addEventListener('click', function(ev
 
         const div = document.createElement('div');
         div.innerHTML = `
-            <div class = 'border-2 rounded-xl p-5 w-10/12 mx-auto h-28 space-y-3 mt-6'>
-                <h1 class = 'font-extrabold text-2xl'>${feniDonateInput} Taka is Donated for Flood Relief in Feni,Bangladesh</h1>
+            <div class = 'border-2 rounded-xl p-5 w-11/12 md:w-10/12 mx-auto md:h-28 space-y-3 mt-6'>
+                <h1 class = 'font-extrabold md:text-2xl'>${feniDonateInput} Taka is Donated for Flood Relief in Feni,Bangladesh</h1>
                 <p>Date: ${specificDate}</p>
             </div>
         `
@@ -128,8 +128,8 @@ document.getElementById('donate-now-btn3').addEventListener('click', function(ev
 
         const div = document.createElement('div');
         div.innerHTML = `
-            <div class = 'border-2 rounded-xl p-5 w-10/12 mx-auto h-28 space-y-3 mt-6'>
-                <h1 class = 'font-extrabold text-2xl'>${quotaDonateInput} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</h1>
+            <div class = 'border-2 rounded-xl p-5 w-11/12 md:w-10/12 mx-auto md:h-28 space-y-3 mt-6'>
+                <h1 class = 'font-extrabold md:text-2xl'>${quotaDonateInput} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</h1>
                 <p>Date: ${specificDate}</p>
             </div>
         `
