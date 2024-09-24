@@ -143,7 +143,7 @@ document.getElementById('donate-now-btn3').addEventListener('click', function(ev
             location.reload();
             document.getElementById('my_modal_1').classList.add('hidden');
             return;
-        }else if(quotaDonateInputNumber > userAmountNumber3){
+        }else if(quotaDonateInputNumber > userAmount3){
             alert('Your amount is not enough')
             location.reload();
             document.getElementById('my_modal_1').classList.add('hidden');
@@ -178,3 +178,12 @@ donationPage.addEventListener('click', function(){
     document.getElementById('section').classList.remove('hidden');
     document.getElementById('footer-section').classList.remove('hidden');
 })
+
+
+function blogBtn (){
+    window.location.href = './home.html';
+}
+
+function homeBtn (){
+    window.location.href = './index.html'
+}
