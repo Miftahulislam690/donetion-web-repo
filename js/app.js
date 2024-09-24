@@ -51,7 +51,6 @@ document.getElementById('donate-now-btn').addEventListener('click', function(eve
     }
 
 
-    // console.log('oi mama na plz')
 })
 
 
@@ -103,8 +102,6 @@ document.getElementById('donate-now-btn2').addEventListener('click', function(ev
         return;
     }
 
-
-    // console.log('oi mama na plz')
 
 })
 
