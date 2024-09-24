@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme ="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Donation</title>
+    <style>
+        body{
+            font-family: "Lexend Deca", sans-serif;
+            padding-top: 16rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="z-20"></header>
+        <div class="fixed top-0 w-full backdrop:blur-2xl">
+            <nav class=" bg-green-200 z-10 backdrop:blur-2xl">
+                <div class="navbar bg-base-100 w-11/12 md:w-10/12 mx-auto items-center flex justify-between bg-green-200 h-24 backdrop:blur-2xl">
+                    <div class="navbar-start">
+                        <button id="home-btn" class="btn w-24 bg-yellow-200">Home</button> 
+                    </div>
+                    <div class="navbar-center space-x-3 hidden md:flex">
+                      <div><img src="./assets/logo.png" alt="a logo"></div>
+                      <div class="">
+                        <p class="font-extrabold text-xl">Donate Bangladesh</p>
+                      </div>
+                    </div>
+                    <div class="navbar-end space-x-2">
+                      <div><img src="./assets/coin.png"alt="coin"></div>
+                      <div>
+                        <p>
+                            <span id="user-amount" class="">5500</span>
+                            <span>BDT</span>
+                        </p>
+                      </div>
+                    </div>
+                </div>
+            </nav>      
+            <div class="bg-transparent h-36 w-auto flex items-center justify-center space-x-3 backdrop-blur-lg">
+            </div>
+        </div>
+    </header>
+    <section class="w-9/12 mx-auto">
+        <div class="join join-vertical w-full">
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" checked="checked" />
+              <div class="collapse-title text-xl font-medium">1. What is the DOM in JavaScript?</div>
+              <div class="collapse-content">
+                <p>The DOM (Document Object Model) is a structured representation of the HTML or XML document. It allows JavaScript to access and manipulate the content, structure, and style of a webpage dynamically.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">2. How can you select an element from the DOM using JavaScript?
+            </div>
+              <div class="collapse-content">
+                <p>You can select an element from the DOM using methods like getElementById(), querySelector(), getElementsByClassName(), or getElementsByTagName().</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">3. How do you create and insert a new element into the DOM?
+            </div>
+              <div class="collapse-content">
+                <p>To create and insert a new element into the DOM, you use createElement() to create the element, modify it as needed, and then insert it using methods like appendChild() or insertBefore().</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">4. How can you remove an element from the DOM?
+            </div>
+              <div class="collapse-content">
+                <p>You can remove an element from the DOM using the remove() method on the element, or by calling the removeChild() method on the parent of the element.</p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>
