@@ -44,7 +44,7 @@ document.getElementById('donate-now-btn').addEventListener('click', function(eve
             return;
         }
     }else{
-        alert('Your Amount Is Not Valid');
+        alert('Your amount is digger than user amount');
         location.reload();
         document.getElementById('my_modal_1').classList.add('hidden');
         return;
@@ -90,7 +90,7 @@ document.getElementById('donate-now-btn2').addEventListener('click', function(ev
             document.getElementById('my_modal_1').classList.add('hidden');
             return;
         }else if(feniDonateInputNumber > userAmountNumber2){
-            alert('Your amount is not enough')
+            alert('Your amount is digger than user amount')
             location.reload();
             document.getElementById('my_modal_1').classList.add('hidden');
             return;
@@ -141,7 +141,7 @@ document.getElementById('donate-now-btn3').addEventListener('click', function(ev
             document.getElementById('my_modal_1').classList.add('hidden');
             return;
         }else if(quotaDonateInputNumber > userAmount3){
-            alert('Your amount is not enough')
+            alert('Your amount is digger than user amount')
             location.reload();
             document.getElementById('my_modal_1').classList.add('hidden');
             return;
