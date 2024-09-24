@@ -38,13 +38,13 @@ document.getElementById('donate-now-btn').addEventListener('click', function(eve
             document.getElementById('my_modal_1').classList.add('hidden');
             return;
         }else if(noakhaliDonateInputNumber > userAmountNumber){
-            alert('Your amount is not enough')
+            alert('Your amount is digger than user amount')
             location.reload();
             document.getElementById('my_modal_1').classList.add('hidden');
             return;
         }
     }else{
-        alert('Your amount is digger than user amount');
+        alert('Your Amount Is Not Valid');
         location.reload();
         document.getElementById('my_modal_1').classList.add('hidden');
         return;
